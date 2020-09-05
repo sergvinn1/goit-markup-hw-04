@@ -54,6 +54,11 @@ a {
 .main-nav {
     display: flex;
     align-items: center;
+    
+}
+
+.container-nav {
+    border-bottom: 1px solid #ececec;
 }
 
 .container.nav {
@@ -155,16 +160,20 @@ a {
 }
 
 .overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     max-width: 1600px;
     height: 600px;
     margin-right: auto;
     margin-left: auto;
+    background-color: #2F303A;
     background-image: linear-gradient(
         to right,
     rgba(47, 48, 58, 0.4),
     rgba(47, 48, 58, 0.4)
-    ), url(../images/fon.jpeg);
-    background-color: #2F303A;
+    ), url(../images/fon.jpeg); 
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -172,8 +181,6 @@ a {
 
 .hero {
     text-align: center;
-    padding-top: 200px;
-    padding-bottom: 280px;
 }
 
 .button-link {
@@ -488,6 +495,7 @@ a {
     display: flex;
     flex-wrap: wrap;
     padding-top: 34px;
+    
 }
 
 .img-galery {
@@ -512,12 +520,11 @@ a {
 
 .footer-block {
     background: #2F303A;
-    margin-top: 94px;
 }
 
 .logo-footer {
     display: inline-block;
-    padding-top: 60px;
+    margin-top: 60px;
     margin-right: 70px;
 }
 
@@ -528,7 +535,7 @@ a {
     font-size: 14px;
     line-height: 1.7;
     color: #FFFFFF;
-    padding-top: 20px;
+    margin-top: 20px;
     
 }
 
@@ -552,7 +559,7 @@ a {
 
 .footer-item {
     display: block;
-    padding-bottom: 60px;
+    margin-bottom: 60px;
 }
 
 .flex {
@@ -574,7 +581,7 @@ a {
     line-height: 1.14;
     color: #ffffff;
     margin: 0px;
-    padding-top: 72px;
+    margin-top: 72px;
 }
 
 .social-icon-list-footer {
