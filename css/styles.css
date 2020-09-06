@@ -530,10 +530,10 @@ a {
 .logo-footer {
     display: inline-block;
     margin-top: 60px;
-    margin-right: 70px;
 }
 
 .address {
+    display: block;
     font-family: roboto, sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -541,6 +541,7 @@ a {
     line-height: 1.7;
     color: #FFFFFF;
     margin-top: 20px;
+    margin-bottom: 60px;
     
 }
 
@@ -558,13 +559,12 @@ a {
     font-size: 14px;
     line-height: 1.7;
     color: rgba(255, 255, 255, 0.6);
-    margin-top: 9px;
-    display: inline-block;
+    
 }
 
 .footer-item {
     display: block;
-    margin-bottom: 60px;
+    margin-top: 9px;
 }
 
 .flex {
